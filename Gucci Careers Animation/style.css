@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .container{
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  
+  .box{
+    position: relative;
+    height: 100%;
+    width: 16.6667%;
+    background-color: white;
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .green{
+    background-color: #4BA670;
+    animation-delay: 1.0s;
+  }
+  
+  .orange{
+    background-color: #C99C00;
+    animation-delay: 1.25s;
+  }
+  
+  .yellow{
+    background-color: #F0D900;
+      animation-delay: 1.5s;
+  }
+  
+  .purple{
+    background-color: #D64CFF;
+      animation-delay: 1.75s;
+  
+  }
+  
+  .red{
+    background-color: #E7644E;
+      animation-delay: 2.0s;
+  
+  }
+  
+  .lime{
+    background-color: #AFBA00;
+      animation-delay: 2.25s;
+  
+  }
+  
+  @keyframes slide{
+    from {
+      bottom: 0%;
+    }
+    to {
+      bottom: 100%;
+      opacity: 0.75;
+    }
+  }
